@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Shanklin to Ventnor.kmz</name>
+	<Style id="geocode">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="geocode0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#geocode</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#geocode1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="geocode1">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+		</LineStyle>
+	</Style>
+	<Style id="listing_A">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="listing_A0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#listing_A1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#listing_A</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="listing_A1">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_hiker">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_hiker</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_hiker</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_hiker">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_hiker">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/hiker.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>My Places</name>
+		<open>1</open>
+		<Style>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<ItemIcon>
+					<state>open</state>
+					<href>files/mysavedplaces_open.png</href>
+				</ItemIcon>
+				<ItemIcon>
+					<state>closed</state>
+					<href>files/mysavedplaces_closed.png</href>
+				</ItemIcon>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Placemark>
+			<name>Shanklin</name>
+			<LookAt>
+				<longitude>-1.174694523072101</longitude>
+				<latitude>50.63486466846553</latitude>
+				<altitude>0</altitude>
+				<heading>0.0006131704927799183</heading>
+				<tilt>11.76099569653878</tilt>
+				<range>603.3304883791686</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_hiker</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.175235598492609,50.63508652766883,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ventnor</name>
+			<LookAt>
+				<longitude>-1.206102194704366</longitude>
+				<latitude>50.59546146386114</latitude>
+				<altitude>0</altitude>
+				<heading>-1.523568794947665e-06</heading>
+				<tilt>20.99036406536311</tilt>
+				<range>592.908191483015</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_hiker</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.206086366308532,50.5954262407744,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.2.1">
+			<name>St Boniface Down</name>
+			<address>Wroxall, Ventnor PO38 1PR</address>
+			<snippet>Wroxall, Ventnor PO38 1PR</snippet>
+			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.60383275&lng=-1.1996388&fid=0x48748958fe69de35:0xbd0ffc6436719f74&hl=en&gl=gb&client=earth-client&cv=7.3.6.9345&useragent=GoogleEarth/7.3.6.9345(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+			<styleUrl>#geocode0</styleUrl>
+			<ExtendedData>
+				<Data name="placepageUri">
+					<value>https://www.google.com/earth/rpc/entity?lat=50.60383275&amp;lng=-1.1996388&amp;fid=0x48748958fe69de35:0xbd0ffc6436719f74&amp;hl=en&amp;gl=gb&amp;client=earth-client&amp;cv=7.3.6.9345&amp;useragent=GoogleEarth/7.3.6.9345(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-1.1996388,50.6038333,0</coordinates>
+				</Point>
+				<LinearRing>
+					<coordinates>
+						-1.210746634960498,50.59550242377962,0 -1.210746634960498,50.61216417622038,0 -1.188530965039502,50.61216417622038,0 -1.188530965039502,50.59550242377962,0 -1.210746634960498,50.59550242377962,0 
+					</coordinates>
+				</LinearRing>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="1.2.1">
+			<name>Nansen Hill</name>
+			<address>Bonchurch, Ventnor PO38 1PU</address>
+			<snippet>Bonchurch, Ventnor PO38 1PU</snippet>
+			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.605445100000004&lng=-1.183779&fid=0x48748bbab81c6da7:0x981d3fe0c48f5c58&hl=en&gl=gb&client=earth-client&cv=7.3.6.9345&useragent=GoogleEarth/7.3.6.9345(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+			<styleUrl>#listing_A0</styleUrl>
+			<ExtendedData>
+				<Data name="placepageUri">
+					<value>https://www.google.com/earth/rpc/entity?lat=50.605445100000004&amp;lng=-1.183779&amp;fid=0x48748bbab81c6da7:0x981d3fe0c48f5c58&amp;hl=en&amp;gl=gb&amp;client=earth-client&amp;cv=7.3.6.9345&amp;useragent=GoogleEarth/7.3.6.9345(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+				</Data>
+			</ExtendedData>
+			<MultiGeometry>
+				<Point>
+					<coordinates>-1.183779,50.6054451,0</coordinates>
+				</Point>
+				<LinearRing>
+					<coordinates>
+						-1.186555868267671,50.60336244879925,0 -1.186555868267671,50.60752775120076,0 -1.181002131732329,50.60752775120076,0 -1.181002131732329,50.60336244879925,0 -1.186555868267671,50.60336244879925,0 
+					</coordinates>
+				</LinearRing>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark>
+			<name>Shanklin to Ventnor</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-1.175230083353493,50.63520617583008,0 -1.175332557438981,50.63510286584561,0 -1.174204436868381,50.63509504469306,0 -1.174428670712754,50.63449237177333,0 -1.174795478405094,50.63388653853647,0 -1.174919074192419,50.63317928437076,0 -1.175438785327426,50.63241865984605,0 -1.176468514194081,50.63124947657212,0 -1.17705353265013,50.63028242626642,0 -1.17732652271912,50.62994656873085,0 -1.177777795332567,50.62972361181124,0 -1.17857269218297,50.629358177947,0 -1.179100113188339,50.62897922318295,0 -1.179208349286504,50.62885956483912,0 -1.179331460814056,50.62869586476683,0 -1.179426980285229,50.62856528210004,0 -1.179484236899938,50.62840501653611,0 -1.179578327765557,50.62818485006058,0 -1.179609281160074,50.62775408345679,0 -1.179436165376346,50.62729041414814,0 -1.178997090724859,50.6267629787948,0 -1.178560427933524,50.62615429764484,0 -1.178435444610333,50.62572746987232,0 -1.178384808143943,50.62548026268193,0 -1.178450032704276,50.62532053093759,0 -1.178393520593275,50.62521199426219,0 -1.178392087485802,50.6251187036279,0 -1.178767300753888,50.62476307189537,0 -1.179686745978384,50.62397728274242,0 -1.180097583228095,50.62359251178612,0 -1.180250037673752,50.62343653076433,0 -1.180500761949443,50.62318097121815,0 -1.180744551224681,50.62302721898502,0 -1.18124689626006,50.62275208742459,0 -1.181671553604898,50.62256793540318,0 -1.182333245281799,50.62218740496947,0 -1.182776549431988,50.62189028242243,0 -1.182820678310799,50.62151454797311,0 -1.183723455313832,50.62095570439293,0 -1.186098268592699,50.61974693981124,0 -1.187113690760498,50.61929845852529,0 -1.18851590116142,50.61866699941728,0 -1.189365101214267,50.6184325461962,0 -1.189741652841566,50.61829950208518,0 -1.189906050146126,50.61810631054348,0 -1.189812649329175,50.61790679366128,0 -1.189633124896485,50.61761743926203,0 -1.18918303613994,50.6170331355199,0 -1.187557422391168,50.61648106894512,0 -1.185287061213329,50.61613570515089,0 -1.184909275528534,50.61579074503464,0 -1.184829873229049,50.61525878739539,0 -1.186275916362883,50.61412447057681,0 -1.187980504800774,50.61309719275386,0 -1.188742040822627,50.61247762478237,0 -1.188929152327487,50.61219936165017,0 -1.188852546783269,50.61189915372713,0 -1.188848104112548,50.61186825411298,0 -1.188385359396102,50.61134449290029,0 -1.187842638679775,50.61061991944192,0 -1.187393631804244,50.60955156999137,0 -1.186925243278579,50.60866704853215,0 -1.18725051155798,50.60822994283227,0 -1.18750188637786,50.60791198082664,0 -1.187608724934451,50.60774248250031,0 -1.18765312739504,50.6074645216828,0 -1.187451467798598,50.60730552059914,0 -1.186944146988387,50.60727181058243,0 -1.185339865879379,50.60737823476345,0 -1.183814915424847,50.60755348837747,0 -1.183110724852413,50.6076204480512,0 -1.183068365808541,50.60762688471533,0 -1.182975375679174,50.60763297009417,0 -1.182932462606578,50.60763964657071,0 -1.182889515436468,50.60764632818383,0 -1.182796414218713,50.6076524221041,0 -1.182786392690316,50.60765230345596,0 -1.182219906678597,50.60763017543206,0 -1.182200248870855,50.60762405188104,0 -1.182157037750393,50.60761917785573,0 -1.182071510682905,50.60760907722626,0 -1.182059723138025,50.6076096964699,0 -1.181651316790294,50.6074368381801,0 -1.181428311191287,50.60722610962392,0 -1.182309442524154,50.60682964928708,0 -1.18304845151073,50.60637100773963,0 -1.183313049170173,50.60634561694722,0 -1.18367178088069,50.60621623026844,0 -1.183973899784194,50.60607163071836,0 -1.184951446582723,50.60561614567488,0 -1.185423497391335,50.60543663876544,0 -1.185610874471467,50.60527022451766,0 -1.186448187316016,50.60506046765905,0 -1.187248900403001,50.60496984338612,0 -1.18865248269812,50.60473640222376,0 -1.189539853094483,50.60471502788869,0 -1.190611127299778,50.60482694266155,0 -1.191026726260324,50.60500900748701,0 -1.191359189225911,50.60469218195662,0 -1.192006114041558,50.6044316484296,0 -1.193738696784483,50.60458583119615,0 -1.195251731069195,50.60484167178276,0 -1.196059388892425,50.60497434601875,0 -1.19783884401283,50.60452146178695,0 -1.19896128958269,50.6043343497272,0 -1.19951306373326,50.60415548810614,0 -1.199758513769905,50.60388277638195,0 -1.200842955710851,50.60366495203004,0 -1.202445781117191,50.60351663674334,0 -1.20197503992997,50.60283068847986,0 -1.201527799787669,50.60264362661038,0 -1.200895390948223,50.60258999080437,0 -1.200112791087847,50.60228478973892,0 -1.199594871174091,50.60204830802723,0 -1.199317359626989,50.601860062185,0 -1.199654393112849,50.60169164895208,0 -1.199868661603589,50.60148100452263,0 -1.200135401668335,50.60104595978316,0 -1.200331585668341,50.60085359421109,0 -1.200732140607588,50.60058428162765,0 -1.201468213803273,50.60025635995009,0 -1.202143852264101,50.60020003174698,0 -1.202161213877099,50.60020107795004,0 -1.203574433457248,50.59971525774906,0 -1.204336295894926,50.5993779444287,0 -1.206717923928323,50.59823502226069,0 -1.207560719198676,50.59790934872376,0 -1.207861062255151,50.59779433778434,0 -1.207973320854258,50.5976722386465,0 -1.20797874322471,50.59766129209025,0 -1.208139441714975,50.59755263702354,0 -1.208113441401912,50.59746444003163,0 -1.208003384967037,50.59741062786211,0 -1.206802407677759,50.59759055516052,0 -1.205998606262522,50.59761855293844,0 -1.205565602330702,50.59769622247026,0 -1.204708245435253,50.59768587326734,0 -1.203309385126985,50.59780018328919,0 -1.202338652839212,50.59786559942221,0 -1.201854906492792,50.59781145905353,0 -1.201682660245177,50.59750627261798,0 -1.201622091552176,50.59744100382239,0 -1.202259651299482,50.59699706381061,0 -1.203241311923281,50.59645276054404,0 -1.203828048662855,50.59618384357729,0 -1.203925737211325,50.59603003864137,0 -1.204031839956935,50.59592217751361,0 -1.204129856320471,50.59568368831188,0 -1.204098727009012,50.59560905607936,0 -1.204084425984927,50.59553225879817,0 -1.204437681128664,50.59543001087116,0 -1.204948710233567,50.59536308988275,0 -1.205477352412229,50.59533688106258,0 -1.205663165840762,50.59532638157668,0 -1.205823296840173,50.59543913702937,0 -1.206047738766917,50.59543410749111,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
