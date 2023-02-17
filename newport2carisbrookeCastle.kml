@@ -11,7 +11,7 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 		<BalloonStyle>
-			<text>$[description]</text>
+			<text>abhi</text>
 		</BalloonStyle>
 		<ListStyle>
 		</ListStyle>
