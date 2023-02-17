@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>coastal_path.kmz</name>
-	<open>1</open>
+	<name>The Isle of Wight Coastal Path.kmz</name>
 	<StyleMap id="msn_cycling">
 		<Pair>
 			<key>normal</key>
@@ -52,6 +51,10 @@
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<Style id="sh_cycling0">
 		<IconStyle>
@@ -62,6 +65,10 @@
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<Style id="sh_hiker">
 		<IconStyle>
@@ -72,6 +79,10 @@
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<Style id="sh_hiker0">
 		<IconStyle>
@@ -82,6 +93,10 @@
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
 		<LineStyle>
 			<color>00ffffff</color>
 		</LineStyle>
@@ -95,6 +110,10 @@
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<Style id="sn_cycling0">
 		<IconStyle>
@@ -105,6 +124,10 @@
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<Style id="sn_hiker">
 		<IconStyle>
@@ -115,6 +138,10 @@
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<Style id="sn_hiker0">
 		<IconStyle>
@@ -125,12 +152,17 @@
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
 		<LineStyle>
 			<color>00ffffff</color>
 		</LineStyle>
 	</Style>
 	<Folder>
 		<name>My Places</name>
+		<open>1</open>
 		<Style>
 			<ListStyle>
 				<listItemType>check</listItemType>
@@ -146,23 +178,8 @@
 				<maxSnippetLines>2</maxSnippetLines>
 			</ListStyle>
 		</Style>
-		<Placemark id="1.5.1">
-			<name>Seaview</name>
-			<address>Seaview PO34 5HE</address>
-			<snippet>Seaview PO34 5HE</snippet>
-			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.6732&lng=-1.47292&fid=0x487461285ecfdbb3:0xcd4a5d7aeec93907&hl=en&gl=gb&client=earth-client&cv=7.3.6.9345&useragent=GoogleEarth/7.3.6.9345(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
-			<styleUrl>#msn_cycling</styleUrl>
-			<ExtendedData>
-				<Data name="placepageUri">
-					<value>https://www.google.com/earth/rpc/entity?lat=50.6732&amp;lng=-1.47292&amp;fid=0x487461285ecfdbb3:0xcd4a5d7aeec93907&amp;hl=en&amp;gl=gb&amp;client=earth-client&amp;cv=7.3.6.9345&amp;useragent=GoogleEarth/7.3.6.9345(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>-1.1129086,50.7215156,0</coordinates>
-			</Point>
-		</Placemark>
 		<Placemark id="1.2.1">
-			<name>Luccombe</name>
+			<name>Isle of Wight Coast Path</name>
 			<address>Luccombe, Shanklin PO37 6RP</address>
 			<snippet>Luccombe, Shanklin PO37 6RP</snippet>
 			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.6732&lng=-1.47292&fid=0x48748bcbc8304d4f:0xca529caa6325e224&hl=en&gl=gb&client=earth-client&cv=7.3.6.9345&useragent=GoogleEarth/7.3.6.9345(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
@@ -177,7 +194,7 @@
 			</Point>
 		</Placemark>
 		<Placemark id="1.3.1">
-			<name>Niton</name>
+			<name>Isle of Wight Coast Path</name>
 			<address>Niton, Ventnor PO38 2BY</address>
 			<snippet>Niton, Ventnor PO38 2BY</snippet>
 			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.6732&lng=-1.47292&fid=0x487485462c78ed53:0x813a3137ce06b51d&hl=en&gl=gb&client=earth-client&cv=7.3.6.9345&useragent=GoogleEarth/7.3.6.9345(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
@@ -187,7 +204,6 @@
 					<value>https://www.google.com/earth/rpc/entity?lat=50.6732&amp;lng=-1.47292&amp;fid=0x487485462c78ed53:0x813a3137ce06b51d&amp;hl=en&amp;gl=gb&amp;client=earth-client&amp;cv=7.3.6.9345&amp;useragent=GoogleEarth/7.3.6.9345(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
 				</Data>
 			</ExtendedData>
-			<gx:balloonVisibility>1</gx:balloonVisibility>
 			<Point>
 				<coordinates>-1.2999539,50.5813329,0</coordinates>
 			</Point>
@@ -208,6 +224,21 @@
 				<coordinates>-1.469764291267706,50.65954120365065,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark id="1.5.1">
+			<name>Isle of Wight Coast Path</name>
+			<address>Seaview PO34 5HE</address>
+			<snippet>Seaview PO34 5HE</snippet>
+			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.6732&lng=-1.47292&fid=0x487461285ecfdbb3:0xcd4a5d7aeec93907&hl=en&gl=gb&client=earth-client&cv=7.3.6.9345&useragent=GoogleEarth/7.3.6.9345(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+			<styleUrl>#msn_cycling</styleUrl>
+			<ExtendedData>
+				<Data name="placepageUri">
+					<value>https://www.google.com/earth/rpc/entity?lat=50.6732&amp;lng=-1.47292&amp;fid=0x487461285ecfdbb3:0xcd4a5d7aeec93907&amp;hl=en&amp;gl=gb&amp;client=earth-client&amp;cv=7.3.6.9345&amp;useragent=GoogleEarth/7.3.6.9345(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-1.1129086,50.7215156,0</coordinates>
+			</Point>
+		</Placemark>
 		<Placemark id="1.6.1">
 			<name>National Trust - The Needles Headland &amp; Tennyson Down</name>
 			<address>Freshwater, Totland Bay PO40 9RD</address>
@@ -224,21 +255,6 @@
 				<coordinates>-1.5543779,50.6651469,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark id="1.11.1">
-			<name>Alum Bay</name>
-			<address>Totland Bay</address>
-			<snippet>Totland Bay</snippet>
-			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.6732&lng=-1.47292&fid=0x487378a8c910b6b9:0xfe271a3d21524542&hl=en&gl=gb&client=earth-client&cv=7.3.6.9345&useragent=GoogleEarth/7.3.6.9345(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
-			<styleUrl>#msn_hiker0</styleUrl>
-			<ExtendedData>
-				<Data name="placepageUri">
-					<value>https://www.google.com/earth/rpc/entity?lat=50.6732&amp;lng=-1.47292&amp;fid=0x487378a8c910b6b9:0xfe271a3d21524542&amp;hl=en&amp;gl=gb&amp;client=earth-client&amp;cv=7.3.6.9345&amp;useragent=GoogleEarth/7.3.6.9345(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<coordinates>-1.583514337556834,50.66381156299086,0</coordinates>
-			</Point>
-		</Placemark>
 		<Placemark id="1.7.1">
 			<name>Needles Isle of Wight</name>
 			<address>MC9M+WH, Totland Bay PO39 0JH</address>
@@ -252,6 +268,21 @@
 			</ExtendedData>
 			<Point>
 				<coordinates>-1.5909979,50.66249490000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="1.11.1">
+			<name>Alum Bay</name>
+			<address>Totland Bay</address>
+			<snippet>Totland Bay</snippet>
+			<description><![CDATA[<!DOCTYPE html><html><head></head><body><script type="text/javascript">window.location.href="https://www.google.com/earth/rpc/entity?lat=50.6732&lng=-1.47292&fid=0x487378a8c910b6b9:0xfe271a3d21524542&hl=en&gl=gb&client=earth-client&cv=7.3.6.9345&useragent=GoogleEarth/7.3.6.9345(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)";</script></body></html>]]></description>
+			<styleUrl>#msn_hiker0</styleUrl>
+			<ExtendedData>
+				<Data name="placepageUri">
+					<value>https://www.google.com/earth/rpc/entity?lat=50.6732&amp;lng=-1.47292&amp;fid=0x487378a8c910b6b9:0xfe271a3d21524542&amp;hl=en&amp;gl=gb&amp;client=earth-client&amp;cv=7.3.6.9345&amp;useragent=GoogleEarth/7.3.6.9345(Windows;Microsoft Windows (6.2.9200.0);en;kml:2.2;client:Pro;type:default)</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-1.583514337556834,50.66381156299086,0</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
