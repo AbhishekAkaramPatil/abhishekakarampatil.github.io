@@ -11,7 +11,7 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 		<BalloonStyle>
-			<text>abhi</text>
+			<text>$[description]</text>
 		</BalloonStyle>
 		<ListStyle>
 		</ListStyle>
@@ -122,6 +122,9 @@
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-1.290444562953028,50.70471123404329,0</coordinates>
 			</Point>
+		        <BalloonStyle>
+                                <text><![CDATA[<h3>$[NewPort]</h3>]]></text>
+                        </BalloonStyle>
 		</Placemark>
 		<Placemark id="1.2.1">
 			<name>Carisbrooke Castle</name>
