@@ -122,21 +122,6 @@
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-1.290444562953028,50.70471123404329,0</coordinates>
 			</Point>
-		         <Document>
-  <name>My Golf Course Example</name>
-  <Placemark>
-    <name>Club house</name>
-    <ExtendedData>
-      <Data name="holeNumber">
-        <value>1</value>
-      </Data>
-      <Data name="holeYardage">
-        <value>234</value>
-      </Data>
-      <Data name="holePar">
-        <value>4</value>
-      </Data>
-    </ExtendedData>
 		</Placemark>
 		<Placemark id="1.2.1">
 			<name>Carisbrooke Castle</name>
